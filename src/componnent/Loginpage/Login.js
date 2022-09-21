@@ -1,7 +1,7 @@
 import React from 'react'
 import  {Component} from 'react'
-// import {Link} from "react-router-dom"
-import './Reg.css'
+import {Link} from "react-router-dom"
+import './Login.css'
 
 class LoginForm extends Component {
   state = {
@@ -109,7 +109,7 @@ class LoginForm extends Component {
        </form>
      </div>
       <div className="signuplink">
-        {/* <p>New user? <Link to="/signup"> <span><button>Signup</button></span> </Link> </p> */}
+        <p>New user? <Link to="/signup"> <span><button>Signup</button></span> </Link> </p>
       </div>
      </div>
     )
